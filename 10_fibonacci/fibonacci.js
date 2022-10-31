@@ -1,4 +1,13 @@
-const fibonacci = function() {
+const fibonacci = function fib(num) {
+    if (num <= 1) {
+        return num;
+    } else {
+        return fib(num - 1) + fib(num - 2);
+    } 
+    // if (digit < 0) {
+    //     return "OOPS"
+    // }
+
 
 };
 
